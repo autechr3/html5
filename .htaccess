@@ -663,3 +663,5 @@ FileETag None
 #        SetOutputFilter INCLUDES
 #    </FilesMatch>
 # </IfModule>
+
+RedirectMatch 404 "(?:.*)/(?:\.git|robots.txt|crossdomain.xml)(?:/.*)?$"
